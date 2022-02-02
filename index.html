@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form-add-user">
+        <div>
+            <input type="text" name="name" class="user-name" placeholder="Enter your name" title="Only letters" required>
+        </div>
+        <div>
+            <input type="tel" name="phone" class="user-phone" placeholder="Enter your phone number" title="Only number" minlength="13" required>
+        </div>
+        <div>
+            <input type="email" name="email" class="user-email" placeholder="Enter your email" title="Email format" required>
+        </div>
+        <div>
+            <button>Click</button></button>
+        </div>
+        <div>
+            <input type="text" name="bank-card" class="user-card" placeholder="Enter your card number" title="Only number" minlength="16" required>
+        </div>
+        <button type="submit" id="btnAddForm">Submmit</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
